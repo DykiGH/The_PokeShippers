@@ -1,0 +1,148 @@
+/*debug si besoin*/
+/* * {
+    box-shadow: 0 0 0 3px red inset;
+} */
+
+body {
+    overflow-x: hidden;
+}
+
+html,
+body {
+    cursor: var(--custom-cursor);
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.centrer {
+    text-align: center;
+}
+
+img/*, svg*/ {
+    /* vertical-align: middle; */
+    width: 250px;
+    /* margin-left: 30%; */
+}
+
+.decalimg {
+    margin-left: 30%;
+}
+
+.marge {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.margetab {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.upperMargin {
+    margin-top: 3%;
+}
+
+.nav-item {
+    /* padding-right: 10;
+    padding-left: 10; */
+    padding: 0px 40px;
+}
+
+.sqlforme {
+    padding-top: 5%;
+}
+
+.table-bleu tbody tr:nth-child(odd) {
+    background-color: rgba(79, 192, 233, 0.388);
+}
+
+.table-bleu tbody tr:nth-child(even) {
+    background-color: rgba(47, 98, 153, 0.604);
+}
+
+.styleButton1 {
+    border: none;
+    background-color: #00adef;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.styleButton2 {
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* pour ne pas afficher le scroll de nombres sur un type="number" */
+#nbrInput::-webkit-outer-spin-button,
+#nbrInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#imgIndex {
+    width: 50%;
+}
+
+#divCartePkm {
+    width: 260px;
+}
+
+#cartePkm {
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#divCartePkmEchange {
+    width: 130px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#cartePkmEchange {
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul li a:hover {
+    color: #ffcb05 !important;
+}
+
+a:hover {
+    cursor: url("../image/cursor/pokeball.png"), pointer;
+}
+
+button:hover {
+    cursor: url("../image/cursor/pokeball.png"), auto;
+}
+
+.zoom {
+    transition: transform 0.7s;
+}
+
+.zoom:hover {
+    transform: scale(1.08);
+}
+
+.overflow-auto {
+    height: 800px;
+}
+
+.dirRtl {
+    direction: rtl;
+}
+
+hr.sep-2 {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #00b9ff, #f0f0f0);
+}
